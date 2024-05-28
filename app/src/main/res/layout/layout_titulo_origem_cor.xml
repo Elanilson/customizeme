@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewTituloOrigemCor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#707177"
+        android:text="Carregando..."
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewCores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
